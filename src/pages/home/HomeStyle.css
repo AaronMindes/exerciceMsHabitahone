@@ -1,0 +1,39 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: fade 10s ease-in-out infinite both;
+}
+
+.nav-button-home{
+    background-color: #001427;
+    color:#ffc43d;
+    font-size: xx-large;
+    font-weight: 800;
+    padding: 25px;
+}
+
+.info{
+    background-color: white;
+    padding: 10px;
+}
+
+@keyframes fade {
+    0% {
+        background-image: url("../../images/supermarket-bg.jpg");
+    }
+
+    50% {
+        background-image: url("../../images/grocery-bg.jpg");
+    }
+
+    100% {
+        background-image: url("../../images/bananas-bg.jpg");
+    }
+}

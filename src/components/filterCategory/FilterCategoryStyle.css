@@ -1,0 +1,22 @@
+.filter-category-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category{
+    background-color: #1b9aaa;
+    padding: 10px;
+    margin: 15px;
+    color: #001427;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.category:hover{
+    cursor: pointer;
+}
+
+.active{
+    background-color: #1b99aa71;
+}

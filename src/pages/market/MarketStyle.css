@@ -1,0 +1,17 @@
+.market-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f8f9fa;
+}
+
+.nav-button{
+    background-color: #001427;
+    color:#ffc43d;
+    font-size: xx-large;
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 15px;
+}
